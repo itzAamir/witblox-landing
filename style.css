@@ -33,10 +33,17 @@ body {
     font-size: 1.2rem;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
     .img-container img {
         max-width: 100%;
+    }
+}
+
+@media (min-height: 800px) {
+    .btn-wrapper {
+        bottom: 3rem;
     }
 }
